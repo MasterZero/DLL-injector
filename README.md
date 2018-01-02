@@ -8,7 +8,7 @@ Params:
 const char * szProcessName - process name,
 const char * szPathToDll - path to dll library
 
-#### return value: int
+#### returns value: int
 0 - all OK
 1 - I can not find process by name
 2 - I can not open process
@@ -21,8 +21,7 @@ Params:
 int ProcessID - process id,
 const char * szPathToDll - path to dll library
 
-#### return value
-same
+#### returns value: same
 
 ### GetProcessIDsByName()
 params:
