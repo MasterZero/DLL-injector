@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Injector">
+      <UniqueIdentifier>{87814b8a-6280-4d0e-bfc6-af6a4efa6ccd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Injector.cpp">
+      <Filter>Injector</Filter>
+    </ClCompile>
+    <ClCompile Include="example.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Injector.h">
+      <Filter>Injector</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
