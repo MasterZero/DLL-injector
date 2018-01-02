@@ -1,10 +1,10 @@
 # DLL-injector
 
 
-## Class DllInjector to attach dll to process by processId or processName
+Class DllInjector to attach dll to process by processId or processName
 
 ### DllInjector ::inject()
-Params:
+#### Params:
 	const char * szProcessName - process name,
 	const char * szPathToDll - path to dll library
 
@@ -17,14 +17,14 @@ Params:
 	5 - I can not start thread
 
 ### DllInjector ::inject()
-Params:
+#### Params:
 	int ProcessID - process id,
 	const char * szPathToDll - path to dll library
 
 #### returns value: same
 
 ### GetProcessIDsByName()
-params:
+#### params:
 	const char * process_name - process name
 #### return value
 std::vector<int> with all founded process ids
