@@ -5,8 +5,8 @@
 
 ### DllInjector ::inject()
 Params:
-const char * szProcessName - process name,
-const char * szPathToDll - path to dll library
+	const char * szProcessName - process name,
+	const char * szPathToDll - path to dll library
 
 #### returns value: int
 	0 - all OK
@@ -18,14 +18,14 @@ const char * szPathToDll - path to dll library
 
 ### DllInjector ::inject()
 Params:
-int ProcessID - process id,
-const char * szPathToDll - path to dll library
+	int ProcessID - process id,
+	const char * szPathToDll - path to dll library
 
 #### returns value: same
 
 ### GetProcessIDsByName()
 params:
-const char * process_name - process name
+	const char * process_name - process name
 #### return value
 std::vector<int> with all founded process ids
 
