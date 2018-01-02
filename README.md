@@ -9,12 +9,12 @@ const char * szProcessName - process name,
 const char * szPathToDll - path to dll library
 
 #### returns value: int
-0 - all OK
-1 - I can not find process by name
-2 - I can not open process
-3 - I can not alloc memory
-4 - I can not write to memory
-5 - I can not start thread
+	0 - all OK
+	1 - I can not find process by name
+	2 - I can not open process
+	3 - I can not alloc memory
+	4 - I can not write to memory
+	5 - I can not start thread
 
 ### DllInjector ::inject()
 Params:
